@@ -1,0 +1,42 @@
+.bullet {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.jobs {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    height: 70vh;
+}
+
+.classname::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}
+
+.first-card {
+    align-items: center;
+    max-width: 80vh;
+    margin: 5px;
+    height: 65px;
+}
+
+.example-card {
+  max-width: 80vh;
+  margin: 5px;
+}
+
+.wi-tronix-header-image {
+  background-image: url('https://pbs.twimg.com/profile_images/1058022388976312320/5OzIruVM_400x400.jpg');
+  background-size: cover;
+}
+
+.schwab-header-image {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogodownload.org%2Fwp-content%2Fuploads%2F2021%2F04%2Fcharles-schwab-logo-2.png&f=1&nofb=1&ipt=950ce986cc88c985ac0d2aa8905303e674553a2a1c343108c5d69c5b2ce82d35&ipo=images');
+  background-size: cover;
+}
+
+.texas-state-header-image {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fencycolorpedia.com%2Fschools%2Fus%2Ftexas-state-university.png&f=1&nofb=1&ipt=a5d62f5e0a203174fded049c7e00fd44d4cc45edea780fc5a1fe9abc366f5a5f&ipo=images');
+  background-size: cover;
+}

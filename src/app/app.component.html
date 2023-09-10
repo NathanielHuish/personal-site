@@ -1,0 +1,30 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <mat-toolbar>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item [routerLink]="['home']">
+        <fa-icon [icon]="faHome"></fa-icon>
+        <span>Home</span>
+      </button>
+      <button mat-menu-item [routerLink]="['resume']">
+        <fa-icon [icon]="faScroll"></fa-icon>
+        <span>Resume</span>
+      </button>
+    </mat-menu>
+  </mat-toolbar>
+</div>
+
+<!-- Content -->
+<div class="content" role="main">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- Footer -->
+<footer>
+    <span> 
+    </span>
+</footer>
+

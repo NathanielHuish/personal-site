@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { faScroll } from '@fortawesome/free-solid-svg-icons';
-import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { faScroll, faTree, faHome } from '@fortawesome/free-solid-svg-icons';
 import { fadeInAnimation } from './animation';
 
 @Component({
@@ -11,7 +10,8 @@ import { fadeInAnimation } from './animation';
   host: { '[@fadeInAnimation]': '' }
 })
 export class AppComponent {
-  title = 'personal-site';
+  title = 'Nathaniel Huish';
   faScroll = faScroll;
   faHome = faHome;
+  faTree = faTree;
 }

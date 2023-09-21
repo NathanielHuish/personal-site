@@ -1,0 +1,23 @@
+<div class="container">
+    <div *ngIf="isLoading">
+        <mat-spinner></mat-spinner>
+    </div>
+    <mat-tab-group *ngIf="!isLoading">
+        <mat-tab *ngFor="let park of parkData" label={{park.fullName}}>
+            <mat-card class="card">
+                <mat-card-header>
+                    <mat-card-content>{{park.description}}</mat-card-content>
+                </mat-card-header>
+            </mat-card>
+            <div class="info-area">
+                <img class="background" src={{park.images[2].url}} alt={{park.images[2].caption}}>
+            </div>
+            <mat-card class="card">
+                <mat-card-header>
+                    <mat-card-content>{{park.images[2].caption}}</mat-card-content>
+                </mat-card-header>
+            </mat-card>
+        </mat-tab>
+    </mat-tab-group>
+</div>
+

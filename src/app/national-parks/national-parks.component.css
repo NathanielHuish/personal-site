@@ -1,0 +1,28 @@
+.container {
+    max-width: 80vh;
+    height: 80vh;
+}
+
+.info-area {
+    margin: 5px;
+}
+
+.card {
+    max-width: 80vh;
+    margin: 5px;
+}
+
+.park-area {
+    height: 80vh;
+    position: relative;
+}
+
+.background {
+    position: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1.6em;
+}

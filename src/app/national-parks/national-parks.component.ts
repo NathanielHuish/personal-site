@@ -6,7 +6,7 @@ import { fadeInAnimation } from '../animation';
 @Component({
   selector: 'app-national-parks',
   templateUrl: './national-parks.component.html',
-  styleUrls: ['./national-parks.component.css'],
+  styleUrls: ['./national-parks.component.css', '../app.component.css'],
   animations: [fadeInAnimation],
   host: { '[@fadeInAnimation]': '' }
 })

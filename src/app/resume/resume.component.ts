@@ -5,7 +5,7 @@ import { faCircleDot } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-resume',
   templateUrl: './resume.component.html',
-  styleUrls: ['./resume.component.css'],
+  styleUrls: ['./resume.component.css', '../app.component.css'],
   animations: [fadeInAnimation],
   host: { '[@fadeInAnimation]': '' }
 })

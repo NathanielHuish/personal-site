@@ -3,17 +3,6 @@
     white-space: pre-wrap;
 }
 
-.jobs {
-    overflow-y: scroll;
-    scrollbar-width: thin;
-    height: 70vh;
-}
-
-.classname::-webkit-scrollbar {
-  display: none;
-  /* for Chrome, Safari, and Opera */
-}
-
 .first-card {
     align-items: center;
     max-width: 80vh;
